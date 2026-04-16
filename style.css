@@ -1,0 +1,75 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin: 20px;
+    background-color: #ffffff;
+    color: #000;
+}
+
+#container {
+    display: flex;
+    max-width: 1000px;
+}
+
+nav {
+    width: 180px;
+    border-right: 1px solid #ccc;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+nav h2 {
+    font-size: 1.2em;
+    margin-top: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    margin-bottom: 8px;
+}
+
+nav a {
+    text-decoration: none;
+    color: blue;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    flex: 1;
+}
+
+h1 {
+    font-size: 1.6em;
+    margin-top: 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+table, th, td {
+    border: 1px solid #aaa;
+}
+
+th, td {
+    padding: 6px;
+    text-align: left;
+}
+
+th {
+    background-color: #eeeeee;
+}
+
+.version-tag {
+    font-family: monospace;
+    background: #f0f0f0;
+    padding: 2px 4px;
+}
